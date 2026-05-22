@@ -159,7 +159,6 @@ def main():
     env = Ambiente(qtdQuartos)
     # aspirador = AgenteIA(env)
     aspirador = AgenteIA_LLM(env)
-    # aspirador = AgenteIA_LLM_V2(env)
     curState = (aspirador.initialPos, "i")
     while(True):
         print("\n========== Percepção ==========\n")
